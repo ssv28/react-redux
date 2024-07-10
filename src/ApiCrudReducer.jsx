@@ -48,5 +48,6 @@ export const ApiCrudReducer = createSlice({
 
 })
 
+
 export const { addData, deleteData, updateData, searchData } = ApiCrudReducer.actions
 export default ApiCrudReducer.reducer
