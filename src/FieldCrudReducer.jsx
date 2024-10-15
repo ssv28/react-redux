@@ -6,7 +6,7 @@ export const FieldCrudReducer = createSlice({
     initialState: {
         data: [],
 
-        intialval: {
+        intialval: { 
             name: '',
             email: '',
             password: '',
